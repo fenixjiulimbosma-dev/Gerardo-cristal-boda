@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5eee4">
+<title>Gerardo & Cristal | Nuestra boda</title>
+<style>
+:root{--cream:#f7f1e8;--paper:#fffaf3;--gold:#b59660;--gold2:#d7c29b;--ink:#4d4338;--muted:#817363}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}a{color:inherit}.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:36px 20px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 20% 20%,#fffaf4 0,transparent 42%),radial-gradient(ellipse at 90% 85%,#e6d7bd 0,transparent 42%),linear-gradient(135deg,#f9f4ec,#eee2d1)}.hero:before,.hero:after{content:"✧";position:absolute;color:#b59660;font-size:100px;opacity:.35}.hero:before{top:5%;left:7%}.hero:after{bottom:4%;right:8%}.frame{border:1px solid var(--gold2);outline:1px solid #cbb68f;outline-offset:8px;padding:46px 22px;max-width:620px;width:100%;position:relative;background:#fffaf3c9}.eyebrow{letter-spacing:.28em;text-transform:uppercase;font:11px Arial,sans-serif;color:#9a7b4b}.names{font-size:clamp(46px,11vw,78px);font-weight:normal;line-height:1.05;margin:22px 0 16px;color:#6a5944}.amp{font-size:.65em;color:var(--gold);font-style:italic}.date{font:14px Arial,sans-serif;letter-spacing:.2em;color:#8d7655;margin:24px 0}.small{font-size:15px;line-height:1.8;color:var(--muted)}.btn{display:inline-block;padding:13px 21px;border:1px solid var(--gold);background:#b59660;color:white;text-decoration:none;text-transform:uppercase;letter-spacing:.1em;font:11px Arial,sans-serif;margin:8px 5px;border-radius:2px}.btn.outline{background:transparent;color:#806744}.section{padding:70px 20px;text-align:center}.section:nth-child(even){background:var(--paper)}.inner{max-width:760px;margin:auto}.section-label{font:11px Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#a18554}.section h2{font-size:clamp(30px,7vw,44px);font-weight:normal;color:#6b5942;margin:14px 0 22px}.rule{width:70px;height:1px;background:var(--gold);margin:22px auto}.quote{font-size:21px;font-style:italic;line-height:1.6;max-width:600px;margin:0 auto}.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:570px;margin:28px auto}.timebox{border:1px solid #d9c8a8;padding:16px 4px;background:#fffaf3}.number{font-size:clamp(25px,6vw,38px);color:#8a7049}.unit{font:10px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:7px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:28px}.card{border:1px solid #e2d4bd;padding:24px 16px;background:#fffaf3}.card h3{font-size:24px;font-weight:normal;margin:8px 0}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:28px auto;max-width:650px}.photo-slot{min-height:190px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;color:#8c795d;background:linear-gradient(145deg,#e8dcc8,#faf4eb);border:1px dashed #bda57c;font:12px Arial,sans-serif}.photo-slot:first-child{grid-column:span 2;min-height:250px}.note{font:12px Arial,sans-serif;color:#887b6b;line-height:1.6}.footer{padding:35px 18px;text-align:center;background:#e8ddcd;color:#75634d;font-size:14px}
+@media(min-width:650px){.section{padding:90px 28px}.frame{padding:60px 45px}.photo-slot{min-height:250px}}
+</style>
+</head>
+<body>
+<header class="hero" id="inicio">
+ <div class="frame">
+  <div class="eyebrow">Con la bendición de nuestras familias</div>
+  <div class="names">Gerardo <span class="amp">&</span><br>Cristal</div>
+  <div class="rule"></div>
+  <div class="eyebrow">¡Nos casamos!</div>
+  <div class="date">28 · DICIEMBRE · 2026</div>
+  <p class="small">Hay momentos que se vuelven inolvidables cuando los compartimos con las personas que amamos. Nos encantará celebrar este día contigo.</p>
+  <a class="btn" href="#invitacion">Abrir invitación</a>
+ </div>
+</header>
+<main>
+<section class="section" id="invitacion"><div class="inner">
+ <div class="section-label">Nuestra historia continúa</div><h2>Un día para recordar</h2><div class="rule"></div>
+ <p class="quote">“El amor no se trata de mirarse el uno al otro, sino de mirar juntos en la misma dirección.”</p>
+ <p class="small">Con mucha alegría queremos invitarte a acompañarnos en el inicio de esta nueva etapa de nuestras vidas.</p>
+</div></section>
+<section class="section"><div class="inner">
+ <div class="section-label">Cada vez falta menos</div><h2>La cuenta regresiva</h2>
+ <div class="countdown" aria-live="polite">
+  <div class="timebox"><div class="number" id="days">--</div><div class="unit">Días</div></div>
+  <div class="timebox"><div class="number" id="hours">--</div><div class="unit">Horas</div></div>
+  <div class="timebox"><div class="number" id="minutes">--</div><div class="unit">Minutos</div></div>
+  <div class="timebox"><div class="number" id="seconds">--</div><div class="unit">Segundos</div></div>
+ </div><p class="note">La cuenta regresiva se actualizará automáticamente.</p>
+</div></section>
+<section class="section" id="lugar"><div class="inner">
+ <div class="section-label">Celebremos juntos</div><h2>¿Dónde será?</h2><div class="rule"></div>
+ <div class="cards"><div class="card"><div class="section-label">Lugar de celebración</div><h3>Quinta San Andrés</h3><p class="small">28 de diciembre de 2026</p>
+ <a class="btn outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Quinta+San+Andres">Abrir ubicación</a>
+ </div></div>
+ <p class="note">Verifica que el pin corresponda a la quinta correcta antes de compartir la invitación.</p>
+</div></section>
+<section class="section" id="fotos"><div class="inner">
+ <div class="section-label">Nuestros recuerdos</div><h2>Galería de fotos</h2><div class="rule"></div>
+ <div class="gallery">
+  <div class="photo-slot">Foto principal de Gerardo y Cristal<br><br>Reemplaza este recuadro por una fotografía</div>
+  <div class="photo-slot">Foto 2<br><br>Reemplaza por una fotografía</div>
+  <div class="photo-slot">Foto 3<br><br>Reemplaza por una fotografía</div>
+ </div>
+ <p class="note">En Canva puedes sustituir estos espacios por sus fotografías y mantener el mismo estilo.</p>
+</div></section>
+<section class="section" id="confirmar"><div class="inner">
+ <div class="section-label">Tu presencia es nuestro mejor regalo</div><h2>¿Nos acompañas?</h2><div class="rule"></div>
+ <p class="small">Por favor, confirma tu asistencia con los novios.</p>
+ <a class="btn" id="rsvp" href="https://wa.me/?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Gerardo%20y%20Cristal%20el%2028%20de%20diciembre%20de%202026." target="_blank" rel="noopener">Confirmar por WhatsApp</a>
+ <p class="note">Para dirigir el botón al WhatsApp de los novios, edita el enlace y agrega su número con código de país, sin +, espacios ni guiones.</p>
+</div></section>
+<section class="section" id="regalos"><div class="inner">
+ <div class="section-label">Con cariño</div><h2>Mesa de regalos</h2><div class="rule"></div>
+ <p class="small">Tu compañía es lo más importante para nosotros. Si deseas tener un detalle, aquí encontrarás nuestra mesa de regalos.</p>
+ <a class="btn outline" id="gift" href="#regalos">Agregar enlace de mesa de regalos</a>
+ <p class="note">Este botón debe cambiarse por el enlace real de la mesa de regalos cuando esté disponible.</p>
+</div></section>
+</main>
+<footer class="footer"><div class="eyebrow">Gerardo & Cristal</div><p>28 · 12 · 2026</p><p>Con amor, esperamos compartir este día contigo.</p><a href="#inicio">Volver al inicio ↑</a></footer>
+<script>
+const target = new Date('2026-12-28T16:00:00-06:00').getTime();
+function tick(){let d=target-Date.now();if(d<0)d=0;document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=Math.floor(d%86400000/3600000);document.getElementById('minutes').textContent=Math.floor(d%3600000/60000);document.getElementById('seconds').textContent=Math.floor(d%60000/1000)}
+tick();setInterval(tick,1000);
+</script>
+</body></html>
